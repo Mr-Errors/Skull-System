@@ -5,6 +5,8 @@
 # ██████╔╝██║░╚██╗╚██████╔╝███████╗███████╗░░░░░░██████╔╝░░░██║░░░██████╔╝░░░██║░░░███████╗██║░╚═╝░██║
 # ╚═════╝░╚═╝░░╚═╝░╚═════╝░╚══════╝╚══════╝░░░░░░╚═════╝░░░░╚═╝░░░╚═════╝░░░░╚═╝░░░╚══════╝╚═╝░░░░░╚═╝
 
+# This is the prefix that will be shown every time you type the command. If you would like to use hex colors please
+# use <#13F94E> as so just change to which color you would like. This does work with normal minecraft colors as well.
 General:
     Command-Prefix: "<#13F94E>&l● SKULLS &8&l➤"
     Smelter-Prefix: "<#13F94E>&l● SMELTER &8&l➤"
