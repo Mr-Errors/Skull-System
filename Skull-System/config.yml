@@ -13,7 +13,8 @@ General:
     
 # If you would like to change which language that is being used in the skript this is where it would be changed.
 Language: lang-en.yml
-    
+
+Verison: 1.0.1
     
 # This is where you find the lore of the skulls that will be dropped after a hostile/passive mob is killed.
 Skull-lore:
