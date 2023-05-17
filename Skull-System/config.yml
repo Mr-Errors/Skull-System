@@ -5,16 +5,14 @@
 #██████╔╝██║░╚██╗╚██████╔╝███████╗███████╗░░░░░░╚█████╔╝╚█████╔╝██║░╚███║░░╚██╔╝░░███████╗██║░░██║░░░██║░░░███████╗██║░░██║
 #╚═════╝░╚═╝░░╚═╝░╚═════╝░╚══════╝╚══════╝░░░░░░░╚════╝░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
 
+Verison: 1.0.1
 # This is the prefix that will be shown every time you type the command. If you would like to use hex colors please
 # use <##FFFFFF> as so just change to which color you would like. This does work with normal minecraft colors as well.
 General:
     Command-Prefix: "<#13F94E>&l● SKULLS &8&l➤"
     Smelter-Prefix: "<#13F94E>&l● SMELTER &8&l➤"
-    
-# If you would like to change which language that is being used in the skript this is where it would be changed.
-Language: lang-en.yml
-
-Verison: 1.0.1
+    Locked-Prefix: "&8[<#F34D37>&l✖&8]"
+    Unlocked-Prefix: "&8[<#8BF337>&l✔&8]"
     
 # This is where you find the lore of the skulls that will be dropped after a hostile/passive mob is killed.
 Skull-lore:
