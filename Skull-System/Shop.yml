@@ -1,0 +1,177 @@
+Market:
+    pig:
+        price: 500000
+        slot: 0
+        sell: 15
+    cow:
+        price: 500000
+        slot: 1
+        sell: 15
+    sheep:
+        price: 550000
+        slot: 2
+        sell: 15
+    chicken:
+        price: 325000
+        slot: 9
+        sell: 25
+    rabbit:
+        price: 300000
+        slot: 10
+        sell: 25
+    slime:
+        price: 300000
+        slot: 11
+        sell: 17
+    zombie:
+        price: 500000
+        slot: 18
+        sell: 25
+    skeleton:
+        price: 500000
+        slot: 19
+        sell: 25
+    spider:
+        price: 500000
+        slot: 20
+        sell: 35
+    turtle:
+        price: 500000
+        slot: 27
+        sell: 40
+    doplhin:
+        price: 500000
+        slot: 28
+        sell: 45
+    cod:
+        price: 500000
+        slot: 29
+        sell: 25
+    red mooshroom:
+        price: 750000
+        slot: 4
+        sell: 15
+        require:
+            Cow: 100
+    red fox:
+        price: 450000
+        slot: 5
+        sell: 125
+        require:
+            Mooshrom: 210
+    ocelot:
+        price: 450000
+        slot: 6
+        sell: 165
+        require:
+            Fox: 320
+    husk:
+        price: 500000
+        slot: 7
+        sell: 55
+        require:
+            Ocelot: 430
+            Zombie: 100
+    stray:
+        price: 500000
+        slot: 8
+        sell: 55
+        require:
+            Husk: 540
+            Skeleton: 200
+    cave spider:
+        price: 550000
+        slot: 13
+        sell: 145
+        require:
+            Stray: 650
+            Spider: 300
+    strider:
+        price: 550000
+        slot: 14
+        sell: 35
+        require:
+            Cave Spider: 900
+    squid:
+        price: 600000
+        slot: 15
+        sell: 20
+        require:
+            Strider: 1050
+            Cod: 400
+    piglin:
+        price: 750000
+        slot: 16
+        sell: 210
+        require:
+            Squid: '1200'
+            Pig: '500'
+    zombie pigman:
+        price: 600000
+        slot: 17
+        sell: 125
+        require:
+            Piglin: 1600
+            Zombie: 1000
+    panda:
+        price: 550000
+        slot: 22
+        sell: 220
+        require:
+            Zombified Piglin: 1850
+    polar bear:
+        price: 550000
+        slot: 23
+        sell: 50
+        require:
+            Panda: 2100
+    enderman:
+        price: 750000
+        slot: 24
+        sell: 75
+        require:
+            Polar Bear: 2350
+    creeper:
+        price: 650000
+        slot: 25
+        sell: 75
+        require:
+            Enderman: 2600
+    blaze:
+        price: 800000
+        slot: 26
+        sell: 235
+        require:
+            Creeper: 4000
+    normal guardian:
+        price: 600000
+        slot: 31
+        sell: 240
+        require:
+            Blaze: 6000
+            Dolphin: 3000
+    vindicator:
+        price: 750000
+        slot: 32
+        sell: 25
+        require:
+            Guardian: 7000
+    hoglin:
+        price: 750000
+        slot: 33
+        sell: 270
+        require:
+            Vindicator: 8000
+    wither skeleton:
+        price: 900000
+        slot: 34
+        sell: 375
+        require:
+            Hoglin: 12000
+            Skeleton: 5000
+    iron golem:
+        price: 2500000
+        slot: 35
+        sell: 575
+        require:
+            Wither Skeleton: 14000
