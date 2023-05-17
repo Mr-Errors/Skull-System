@@ -11,10 +11,49 @@ Verison: 1.0.1
 General:
     Command-Prefix: "<#13F94E>&l● SKULLS &8&l➤"
     Smelter-Prefix: "<#13F94E>&l● SMELTER &8&l➤"
-    Locked-Prefix: "&8[<#F34D37>&l✖&8]"
-    Unlocked-Prefix: "&8[<#8BF337>&l✔&8]"
+    Locked-Prefix: "&7(<#F34D37>&lLOCKED&7)"
+    Unlocked-Prefix: "&7(<#8BF337>&lUNLOCKED&7)"
+    Not-Enough-Money: "&8[<#F34D37>&l✖&8]"
+    Enough-Money: "&8[<#8BF337>&l✔&8]"
+    
     
 # This is where you find the lore of the skulls that will be dropped after a hostile/passive mob is killed.
 Skull-lore:
 - "&7Turn in this Skull at spawn or &b/smelter &7to"
 - "&7unlock &aSpawners&7 or earn &aMoney&7!"
+
+UnLocked-Lore:
+- ""
+- "&7Purchase Requirements &8»"
+- "{money_status} &e&lMoney &8» &f{amount}"
+- ""
+- "&7Times Purchased &8» &f{mob_amount}"
+- ""
+- "&7Click to purchase a spawner"
+
+Locked-Lore:
+- ""
+- "&7Unlocked Requirements &8»"
+- "{locked_requirement} &e&l{locked_mob} &8» &f{locked_amount}"
+- ""
+- "&7Click to unlock this spawner"
+
+Help-Sign:
+    name: "&b&lSKULL EXCHANGE HELP"
+    lore:
+    - "&7Most mobs have a percent chance to"
+    - "&7drop a &bSkull&7 when they are killed"
+    - ""
+    - "&7Redeem these skulls for &amoney &7for"
+    - "&aprogress &7that can be used towards"
+    - "&7unlocking the next spawner."
+    - ""
+    - "&7Spawner can require both &amoney &7and"
+    - "&bskulls&7 in order to be purchased, and that"
+    - "&7requirement &bincreases exponenitally &7until a"
+    - "&7certian level has been reached."
+
+SellGUI:
+    name: "&b&lSKULL EXCHANGE &7(&a&l/SMELTER&7)"
+    lore:
+    - "&7Redeem &bskulls&7 for &amoney&7 or &aprogress"
