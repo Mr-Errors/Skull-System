@@ -1,7 +1,7 @@
 Players-Profile:
-    Name: 
+    Name: MrErrors
     Sell-Skull-Multi: 0
-    Last-Login:
+    Last-Login: !skriptdate '2023-05-17T19:06:12.426-04:00'
 
 Skull-Unlocked:
 - Pig
@@ -18,8 +18,8 @@ Skull-Unlocked:
 - Cod
 
 Skull-Locked:
-- Mooshroom
-- Fox
+- Red Mooshroom
+- Red Fox
 - Ocelot
 - Husk
 - Stray
@@ -27,13 +27,13 @@ Skull-Locked:
 - Strider
 - Squid
 - Piglin
-- Zombified Piglin
+- Zombie Piglin
 - Panda
 - Polar Bear
 - Enderman
 - Creeper
 - Blaze
-- Guardian
+- Normal Guardian
 - Vindicator
 - Hoglin
 - Wither Skeleton
@@ -69,7 +69,7 @@ Spawner-Bought-Amount:
     Hoglin: 0
     Wither Skeleton: 0
     Iron Golem: 0
-    
+
 Skull-Progress-Data:
     Pig: 0
     Cow: 0
