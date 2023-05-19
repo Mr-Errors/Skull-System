@@ -40,63 +40,63 @@ Skull-Locked:
 - Iron Golem
 
 Spawner-Bought-Amount:
-    Pig: 0
-    Cow: 0
-    Sheep: 0
-    Chicken: 0
-    Rabbit: 0
-    Slime: 0
-    Zombie: 0
-    Skeleton: 0
-    Spider: 0
-    Turtle: 0
-    Dolphin: 0
-    Cod: 0
-    Mooshroom: 0
-    Fox: 0
-    Ocelot: 0
-    Husk: 0
-    Stray: 0
-    Cave Spider: 0
-    Strider: 0
-    Piglin: 0
-    Zombified Piglin: 0
-    Panda: 0
-    Polar Bear: 0
-    Enderman: 0
-    Guardian: 0
-    Vindicator: 0
-    Hoglin: 0
-    Wither Skeleton: 0
-    Iron Golem: 0
+    pig: 0
+    cow: 0
+    sheep: 0
+    chicken: 0
+    rabbit: 0
+    slime: 0
+    zombie: 0
+    skeleton: 0
+    spider: 0
+    turtle: 0
+    dolphin: 0
+    cod: 0
+    red mooshroom: 0
+    red fox: 0
+    ccelot: 0
+    husk: 0
+    stray: 0
+    cave Spider: 0
+    strider: 0
+    piglin: 0
+    zombie Piglin: 0
+    panda: 0
+    polar Bear: 0
+    enderman: 0
+    normal guardian: 0
+    vindicator: 0
+    hoglin: 0
+    wither skeleton: 0
+    iron golem: 0
 
 Skull-Progress-Data:
-    Pig: 0
-    Cow: 0
-    Sheep: 0
-    Chicken: 0
-    Rabbit: 0
-    Slime: 0
-    Zombie: 0
-    Skeleton: 0
-    Spider: 0
-    Turtle: 0
-    Dolphin: 0
-    Cod: 0
-    Mooshroom: 0
-    Fox: 0
-    Ocelot: 0
-    Husk: 0
-    Stray: 0
-    Cave Spider: 0
-    Strider: 0
-    Piglin: 0
-    Zombified Piglin: 0
-    Panda: 0
-    Polar Bear: 0
-    Enderman: 0
-    Guardian: 0
-    Vindicator: 0
-    Hoglin: 0
-    Wither Skeleton: 0
-    Iron Golem: 0
+    pig: 0
+    cow: 0
+    sheep: 0
+    chicken: 0
+    rabbit: 0
+    slime: 0
+    zombie: 0
+    skeleton: 0
+    spider: 0
+    turtle: 0
+    dolphin: 0
+    cod: 0
+    red mooshroom: 0
+    red fox: 0
+    ccelot: 0
+    husk: 0
+    stray: 0
+    cave Spider: 0
+    strider: 0
+    piglin: 0
+    zombie Piglin: 0
+    panda: 0
+    polar Bear: 0
+    enderman: 0
+    normal guardian: 0
+    vindicator: 0
+    hoglin: 0
+    wither skeleton: 0
+    iron golem: 0
