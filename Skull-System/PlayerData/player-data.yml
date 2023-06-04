@@ -1,7 +1,7 @@
 Players-Profile:
-    Name: MrErrors
+    Name:
     Sell-Skull-Multi: 0
-    Last-Login: !skriptdate '2023-05-17T19:06:12.426-04:00'
+    Last-Login: 
 
 Skull-Unlocked:
 - Pig
@@ -53,17 +53,20 @@ Spawner-Bought-Amount:
     dolphin: 0
     cod: 0
     red mooshroom: 0
+    blaze: 0
+    squid: 0
     red fox: 0
-    ccelot: 0
+    ocelot: 0
     husk: 0
     stray: 0
-    cave Spider: 0
+    cave spider: 0
     strider: 0
     piglin: 0
-    zombie Piglin: 0
+    zombie piglin: 0
     panda: 0
-    polar Bear: 0
+    polar bear: 0
     enderman: 0
+    creeper: 0
     normal guardian: 0
     vindicator: 0
     hoglin: 0
@@ -84,17 +87,20 @@ Skull-Progress-Data:
     dolphin: 0
     cod: 0
     red mooshroom: 0
+    blaze: 0
+    squid: 0
     red fox: 0
-    ccelot: 0
+    ocelot: 0
     husk: 0
     stray: 0
-    cave Spider: 0
+    cave spider: 0
     strider: 0
     piglin: 0
-    zombie Piglin: 0
+    zombie piglin: 0
     panda: 0
-    polar Bear: 0
+    polar bear: 0
     enderman: 0
+    creeper: 0
     normal guardian: 0
     vindicator: 0
     hoglin: 0
