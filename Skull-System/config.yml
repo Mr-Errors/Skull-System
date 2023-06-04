@@ -23,23 +23,28 @@ Skull-lore:
 - "&7unlock &aSpawners&7 or earn &aMoney&7!"
 
 UnLocked-Lore:
-- ""
-- "&7Purchase Requirements &8»"
-- "{money_status} &e&lMoney &8» &f{amount}"
+- "&7Purchase Requirements"
+- "{money_status} &e&lMoney &8» &f${amount}"
 - ""
 - "&7Times Purchased &8» &f{mob_amount}"
 - ""
 - "&7Click to purchase a spawner"
 
-Locked-Lore:
-- ""
-- "&7Unlocked Requirements &8»"
+Locked-Lore-One:
+- "&7Unlocked Requirements"
 - "{locked_requirement} &e&l{locked_mob} &8» &f{locked_amount}"
+- ""
+- "&7Click to unlock this spawner"
+Locked-Lore-Two:
+- "&7Unlocked Requirements"
+- "{locked_requirement} &e&l{locked_mob} &8» &f{locked_amount}"
+- "{locked_requirement2} &e&l{locked_mob2} &8» &f{locked_amount2}"
 - ""
 - "&7Click to unlock this spawner"
 
 Help-Sign:
     name: "&b&lSKULL EXCHANGE HELP"
+    slot: 45
     lore:
     - "&7Most mobs have a percent chance to"
     - "&7drop a &bSkull&7 when they are killed"
