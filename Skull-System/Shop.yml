@@ -39,7 +39,7 @@ Market:
         price: 500000
         slot: 27
         sell: 40
-    doplhin:
+    dolphin:
         price: 500000
         slot: 28
         sell: 45
@@ -52,126 +52,182 @@ Market:
         slot: 4
         sell: 15
         require:
-            Cow: 100
+            cow:
+                name: Cow
+                value: 100
     red fox:
         price: 450000
         slot: 5
         sell: 125
         require:
-            Mooshrom: 210
+            red mooshroom:
+                name: Mooshroom
+                value: 210
     ocelot:
         price: 450000
         slot: 6
         sell: 165
         require:
-            Fox: 320
+            red fox:
+                name: Fox
+                value: 320
     husk:
         price: 500000
         slot: 7
         sell: 55
         require:
-            Ocelot: 430
-            Zombie: 100
+            ocelot:
+                name: Ocelot
+                value: 430
+            rabbit:
+                name: Rabbit
+                value: 100
     stray:
         price: 500000
         slot: 8
         sell: 55
         require:
-            Husk: 540
-            Skeleton: 200
+            husk:
+                name: Husk
+                value: 540
+            turtle:
+                name: Turtle
+                value: 200
     cave spider:
         price: 550000
         slot: 13
         sell: 145
         require:
-            Stray: 650
-            Spider: 300
+            stray:
+                name: Stray
+                value: 650
+            spider:
+                name: Spider
+                value: 300
     strider:
         price: 550000
         slot: 14
         sell: 35
         require:
-            Cave Spider: 900
+            cave spider:
+                name: Cave Spider
+                value: 900
     squid:
         price: 600000
         slot: 15
         sell: 20
         require:
-            Strider: 1050
-            Cod: 400
+            strider:
+                name: Strider
+                value: 1050
+            cod:
+                name: Cod
+                value: 400
     piglin:
         price: 750000
         slot: 16
         sell: 210
         require:
-            Squid: '1200'
-            Pig: '500'
+            squid:
+                name: Squid
+                value: 1200
+            pig:
+                name: Pig
+                value: 500
     zombie pigman:
         price: 600000
         slot: 17
         sell: 125
         require:
-            Piglin: 1600
-            Zombie: 1000
+            piglin:
+                name: Piglin
+                value: 1600
+            zombie:
+                name: Zombie
+                value: 1000
     panda:
         price: 550000
         slot: 22
         sell: 220
         require:
-            Zombified Piglin: 1850
+            zombie piglin:
+                name: Zombified Piglin
+                value: 1850
     polar bear:
         price: 550000
         slot: 23
         sell: 50
         require:
-            Panda: 2100
+            panda:
+                name: Panda
+                value: 2100
     enderman:
         price: 750000
         slot: 24
         sell: 75
         require:
-            Polar Bear: 2350
+            polar bear:
+                name: Polar Bear
+                value: 2350
     creeper:
         price: 650000
         slot: 25
         sell: 75
         require:
-            Enderman: 2600
+            enderman:
+                name: Enderman
+                value: 2600
     blaze:
         price: 800000
         slot: 26
         sell: 235
         require:
-            Creeper: 4000
+            creeper:
+                name: Creeper
+                value: 4000
     normal guardian:
         price: 600000
         slot: 31
         sell: 240
         require:
-            Blaze: 6000
-            Dolphin: 3000
+            blaze:
+                name: Blaze
+                value: 6000
+            dolphin:
+                name: Dolphin
+                value: 3000
     vindicator:
         price: 750000
         slot: 32
         sell: 25
         require:
-            Guardian: 7000
+            normal guardian:
+                name: Guardian
+                value: 7000
     hoglin:
         price: 750000
         slot: 33
         sell: 270
         require:
-            Vindicator: 8000
+            vindicator:
+                name: Vindicator
+                value: 8000
     wither skeleton:
         price: 900000
         slot: 34
         sell: 375
         require:
-            Hoglin: 12000
-            Skeleton: 5000
+            hoglin:
+                name: Hoglin
+                value: 12000
+            skeleton:
+                name: Skeleton
+                value: 5000
     iron golem:
         price: 2500000
         slot: 35
         sell: 575
         require:
-            Wither Skeleton: 14000
+            wither skeleton:
+                name: Wither Skeleton
+                value: 14000
